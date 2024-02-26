@@ -1,0 +1,19 @@
+Amazon EC2 instance families : 
+
+1. General purpose  -  Compute a good balance of compute, memory and networking resources. - Eg : Web servers, Code repositories
+2. Compute optimized - Compute intensive tasks - Eg : Gaming servers, High performance computing(HPC), Scientific modeling
+3. Memory optimized - Memory intensive tasks
+4. Accelerated computing - Floating point number calculations, Graphics processing, Data pattern matching. - Utilizing hardware accelerators
+5. Storage optimized - Workloads that require high performance for locally stored data
+
+Amazon EC2 purchase options :
+ 
+1. On-demand : Only pay for the time for the instance run time. No long term commintments and contracts.
+2. Savings Plans :  Low prices offered in return with commitments for 1 year or 3 year
+3. Rsesrved instances : steady state workloads. (Predicted usage)
+4. Spot instances : AWS can reclaim the instance at any time. Must tolerate disturbances. (Eg : Batch workloads)
+5. Dedicated Hosts : For meeting certain compliance requirements, only used by you.
+
+Amazon SQS : 
+
+SQS allows to send, store, receive messages between software components at any volume. Without losing messages or requiring other services to be available. 
